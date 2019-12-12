@@ -1,0 +1,52 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('download.jpeg')center/cover no-repeat;
+}
+
+.images{
+    background: rgb(247, 101, 65);
+    flex: 0 0 80%;
+    min-height: 70vh;
+    background: url('sri.jpg')center/cover no-repeat;
+    border-radius: 15px;
+    box-shadow: 5px 10px rgb(5, 5, 5);
+    position: relative;
+}
+
+.btn{
+    display: inline-block;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px 5px rgb(0, 0, 0);
+    outline: none;
+}
+
+.prevBtn{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%,-50%);
+}
+
+.nextBtn{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%,-50%);
+}
+
+.btn:active{
+    background: rgb(3, 3, 3);
+    box-shadow: 1px 1px rgb(3, 3, 3)
+}
+.btn:hover{
+    background: rgb(219, 169, 112);
+    color: rgb(3, 3, 3);
+}
